@@ -3,7 +3,7 @@ module github.com/pingcap/tidb
 go 1.16
 
 require (
-	cloud.google.com/go/storage v1.16.1
+	cloud.google.com/go/storage v1.29.0
 	github.com/Azure/azure-sdk-for-go/sdk/azidentity v0.12.0
 	github.com/Azure/azure-sdk-for-go/sdk/storage/azblob v0.2.0
 	github.com/BurntSushi/toml v0.3.1
@@ -29,15 +29,15 @@ require (
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang/mock v1.6.0
-	github.com/golang/protobuf v1.5.2
-	github.com/golang/snappy v0.0.3
+	github.com/golang/protobuf v1.5.3
+	github.com/golang/snappy v0.0.4
 	github.com/google/btree v1.0.1
 	github.com/google/pprof v0.0.0-20211122183932-1daafda22083
-	github.com/google/uuid v1.1.2
+	github.com/google/uuid v1.3.0
 	github.com/gorilla/handlers v1.5.1 // indirect
 	github.com/gorilla/mux v1.8.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
-	github.com/iancoleman/strcase v0.0.0-20191112232945-16388991a334
+	github.com/iancoleman/strcase v0.2.0
 	github.com/jedib0t/go-pretty/v6 v6.2.2
 	github.com/joho/sqltocsv v0.0.0-20210428211105-a6d6801d59df
 	github.com/ngaut/pools v0.0.0-20180318154953-b7bc8c42aac7
@@ -57,7 +57,7 @@ require (
 	github.com/pingcap/tidb/parser v0.0.0-20211011031125-9b13dc409c5e
 	github.com/pingcap/tipb v0.0.0-20220110031732-29e23c62eeac
 	github.com/prometheus/client_golang v1.11.0
-	github.com/prometheus/client_model v0.2.0
+	github.com/prometheus/client_model v0.3.0
 	github.com/prometheus/common v0.26.0
 	github.com/shirou/gopsutil/v3 v3.21.12
 	github.com/shurcooL/httpfs v0.0.0-20190707220628-8d4bc4ba7749 // indirect
@@ -67,7 +67,7 @@ require (
 	github.com/soheilhy/cmux v0.1.5
 	github.com/spf13/cobra v1.1.3
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.3
 	github.com/tiancaiamao/appdash v0.0.0-20181126055449-889f96f722a2
 	github.com/tikv/client-go/v2 v2.0.0-rc.0.20220217140116-589cf79b2ab5
 	github.com/tikv/pd/client v0.0.0-20220216080339-1b8f82378ee7
@@ -87,17 +87,17 @@ require (
 	go.uber.org/goleak v1.1.12
 	go.uber.org/multierr v1.7.0
 	go.uber.org/zap v1.20.0
-	golang.org/x/net v0.0.0-20211015210444-4f30a5c0130f
-	golang.org/x/oauth2 v0.0.0-20210805134026-6f1e6394065a
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e
-	golang.org/x/text v0.3.7
-	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
-	golang.org/x/tools v0.1.8
-	google.golang.org/api v0.54.0
-	google.golang.org/grpc v1.43.0
+	golang.org/x/net v0.9.0
+	golang.org/x/oauth2 v0.7.0
+	golang.org/x/sync v0.1.0
+	golang.org/x/sys v0.7.0
+	golang.org/x/text v0.9.0
+	golang.org/x/time v0.3.0
+	golang.org/x/tools v0.7.0
+	google.golang.org/api v0.114.0
+	google.golang.org/grpc v1.56.3
 	gopkg.in/yaml.v2 v2.4.0
-	modernc.org/mathutil v1.4.1
+	modernc.org/mathutil v1.5.0
 	sourcegraph.com/sourcegraph/appdash v0.0.0-20190731080439-ebfcffb1b5c0
 	sourcegraph.com/sourcegraph/appdash-data v0.0.0-20151005221446-73f23eafcf67
 )
